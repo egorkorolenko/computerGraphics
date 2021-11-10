@@ -1,7 +1,7 @@
 var canvas = document.getElementById("canvas")
 var ctx = canvas.getContext('2d')
 
-var inp = prompt("Введите координаты начальной и конечной точки");
+var inp = prompt("Введите координаты начальной и конечной точки (4 числа через пробел)");
 var input = inp.split(' ')
 line(parseInt(input[0]),parseInt(input[1]),parseInt(input[2]),parseInt(input[3]))
 
